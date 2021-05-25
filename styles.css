@@ -1,0 +1,54 @@
+#background{
+    color:hsl(0, 0%, 95%)
+}
+#column-cards-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.column-card-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.column-card{
+    padding: 10%;
+}
+
+.column-card .body{
+    color: hsl(0, 0%, 95%);
+}
+
+.column-card .main-headings{
+    color: hsl(0, 0%, 95%);
+}
+
+.column-card .learn-more-buttons{
+    background-color: hsl(0, 0%, 95%);
+}
+
+#sedans-card{
+    background-color: hsl(31, 77%, 52%);
+}
+
+#sedans-card .learn-more-buttons{
+    color: hsl(31, 77%, 52%);
+}
+
+
+#suv-card{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#suv-card .learn-more-buttons{
+    color: hsl(184, 100%, 22%);
+}
+
+#luxury-card{
+    background-color: hsl(179, 100%, 13%);
+}
+
+#luxury-card .learn-more-buttons{
+    color: hsl(179, 100%, 13%);
+}
+
