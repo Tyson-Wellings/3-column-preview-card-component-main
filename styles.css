@@ -4,20 +4,26 @@
 }
 #background{
     color:hsl(0, 0%, 95%);
-    padding: 20px;
+    padding: 10% 5%;
+    position: relative;
 }
 #column-cards-container{
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
+    margin: auto;
 }
 
 .column-card-container{
     display: flex;
     flex-direction: column;
+    margin: auto;
 }
 
 .column-card{
     padding: 45px;
+    box-sizing: border-box;
+    width: 300px
 }
 
 .column-card .body{
@@ -53,11 +59,13 @@
     border-radius: 20px;
     font-size: 14px;
     text-align: center;
+    margin: 25px 0 15px 0;
     
 }
 
 #sedans-card{
     background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0 0;
 }
 
 #sedans-card .learn-more-buttons{
@@ -75,9 +83,57 @@
 
 #luxury-card{
     background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 10px 10px;
 }
 
 #luxury-card .learn-more-buttons{
     color: hsl(179, 100%, 13%);
 }
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -128.385px;
+    
+}
 
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.attribution {
+    color: hsl(179, 100%, 13%);
+}
+
+@media only screen and (min-width: 1050px) {
+    #column-cards-container{
+        
+        flex-direction: row;
+        border-radius: 10px;
+        justify-content: center;
+        width: 900px;
+    }
+
+    #sedans-card{
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 10px 0 0 10px;
+    }
+    
+    #luxury-card{
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0 10px 10px 0;
+    }
+
+    .column-card .learn-more-buttons{
+        margin-top: 30%;
+    }
+    
+    #background{
+        height: 100vh;
+        box-sizing: border-box;
+    }
+}
+    
