@@ -16,6 +16,6 @@ Users should be able to:
 
 # Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://tyson-wellings.github.io/3-column-preview-card-component-main/)
+- Solution URL: [https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub/responsive-flexbox-3-column-layout-gkmh55CLM](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub/responsive-flexbox-3-column-layout-gkmh55CLM)
+- Live Site URL: [https://tyson-wellings.github.io/3-column-preview-card-component-main/](https://tyson-wellings.github.io/3-column-preview-card-component-main/)
 
