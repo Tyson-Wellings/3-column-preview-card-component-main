@@ -129,6 +129,31 @@
 
     .column-card .learn-more-buttons{
         margin-top: 30%;
+        
+    }
+
+    #sedans-card .learn-more-buttons:hover{
+        background-color: hsl(31, 77%, 52%);
+        border-color: hsl(0, 0%, 95%);
+        color: hsl(0, 0%, 95%);
+        border-style: solid;
+        border-width: 1px;
+    }
+    
+    #suv-card .learn-more-buttons:hover{
+        background-color: hsl(184, 100%, 22%);
+        border-color: hsl(0, 0%, 95%);
+        color: hsl(0, 0%, 95%);
+        border-style: solid;
+        border-width: 1px;
+    }
+      
+    #luxury-card .learn-more-buttons:hover{
+        background-color: hsl(179, 100%, 13%);
+        border-color: hsl(0, 0%, 95%);
+        color: hsl(0, 0%, 95%);
+        border-style: solid;
+        border-width: 1px;
     }
     
     #background{
